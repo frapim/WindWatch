@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+	<CheckBoxPreference
+        android:key="pref_enabled"
+        android:title="@string/pref_enable"
+        android:defaultValue="false" />
+    <ListPreference
+        android:key="pref_report_predefined"
+        android:title="@string/pref_report_predefined"
+        android:dialogTitle="@string/pref_report_predefined"
+        android:entries="@array/wind_speed_entries"
+        android:entryValues="@array/wind_speed_values"
+        android:defaultValue="0" />   
+    <ListPreference
+        android:key="pref_location"
+        android:title="@string/pref_location"
+        android:dialogTitle="@string/pref_location"
+        android:entries="@array/pref_location_entries"
+        android:entryValues="@array/pref_location_values"
+        android:defaultValue="0" />
+    <ListPreference
+        android:key="pref_refresh_rate"
+        android:title="@string/pref_refresh_rate"
+        android:dialogTitle="@string/pref_refresh_rate"
+        android:entries="@array/pref_refresh_rate_entries"
+        android:entryValues="@array/pref_refresh_rate_values"
+        android:defaultValue="15" />
+    <ListPreference
+        android:key="pref_wind_speed_warning"
+        android:title="@string/pref_wind_speed_warning"
+		android:summary="@string/pref_wind_speed_warning_summary"
+        android:dialogTitle="@string/pref_wind_speed_warning"
+        android:entries="@array/wind_speed_entries"
+        android:entryValues="@array/wind_speed_values"
+        android:defaultValue="0" />
+    <ListPreference
+        android:key="pref_wind_direction_warning"
+        android:title="@string/pref_wind_direction_warning"
+        android:dialogTitle="@string/pref_wind_direction_warning"
+		android:summary="@string/pref_wind_direction_warning_summary"
+        android:entries="@array/pref_wind_direction_warning_entries"
+        android:entryValues="@array/pref_wind_direction_warning_values"
+        android:defaultValue="0" />
+    <!-- 
+	<CheckBoxPreference
+        android:key="pref_show_tide"
+        android:title="@string/pref_show_tide"
+        android:summary="@string/pref_show_tide_summary"
+        android:defaultValue="false" />  -->
+</PreferenceScreen>

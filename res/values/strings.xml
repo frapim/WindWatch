@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+* WindWatch - Wind tracking application compatible with Android Wear.
+* Copyright (C) 2014  Francisco Pimenta
+
+* This program is free software: you can redistribute it and/or modify
+* it under the terms of the GNU General Public License as published by
+* the Free Software Foundation, either version 3 of the License, or
+* (at your option) any later version.
+
+* This program is distributed in the hope that it will be useful,
+* but WITHOUT ANY WARRANTY; without even the implied warranty of
+* MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+* GNU General Public License for more details.
+
+* You should have received a copy of the GNU General Public License
+* along with this program.  If not, see <http://www.gnu.org/licenses/>.
+-->
+<resources>
+
+    <string name="app_name">WindWatch</string>
+    <string name="pref_enable">Enable</string>
+	<string name="pref_location">Location to use</string>
+	<string name="pref_report_predefined">Report predefined (rnd) wind</string>
+	<string name="pref_refresh_rate">Data refresh rate</string>
+	<string name="pref_wind_speed_warning">Wind speed warning</string>
+	<string name="pref_wind_speed_warning_summary">Min wind speed value when to actively notify the user</string>
+	<string name="pref_wind_direction_warning">Wind direction warning</string>
+	<string name="pref_wind_direction_warning_summary">Wind direction value when to actively notify the user</string>
+	<string name="pref_show_tide">Show tide page</string>
+	<string name="pref_show_tide_summary">When checked, adds tide information to notifications</string>
+	<string name="wind_description_format">%1$s, %2$.1f mph</string>
+	<string name="wind_calm">Calm</string>
+	<string name="wind_light_air">Light air</string>
+	<string name="wind_light_breeze">Light breeze</string>
+	<string name="wind_gentle_breeze">Gentle breeze</string>
+	<string name="wind_moderate_breeze">Moderate breeze</string>
+	<string name="wind_fresh_breeze">Fresh breeze</string>
+	<string name="wind_strong_breeze">Strong breeze</string>
+	<string name="wind_high_wind">High wind</string>
+	<string name="wind_gale">Gale</string>
+	<string name="wind_strong_gale">Strong gale</string>
+	<string name="wind_storm">Storm</string>
+	<string name="wind_violent_storm">Violent Storm</string>
+	<string name="wind_hurricane">Hurricane</string>
+	<string name="error_general">General error</string>
+	<string name="error_network">Network unavailable</string>
+	<string name="error_network_description">Check your network connection</string>
+	<string name="error_location">Location error</string>
+	<string name="error_location_description">Could not retrieve your location</string>
+	<string name="action_disable">Disable WindWatch</string>
+</resources>

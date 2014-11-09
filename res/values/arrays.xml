@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+* WindWatch - Wind tracking application compatible with Android Wear.
+* Copyright (C) 2014  Francisco Pimenta
+
+* This program is free software: you can redistribute it and/or modify
+* it under the terms of the GNU General Public License as published by
+* the Free Software Foundation, either version 3 of the License, or
+* (at your option) any later version.
+
+* This program is distributed in the hope that it will be useful,
+* but WITHOUT ANY WARRANTY; without even the implied warranty of
+* MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+* GNU General Public License for more details.
+
+* You should have received a copy of the GNU General Public License
+* along with this program.  If not, see <http://www.gnu.org/licenses/>.
+-->
+<resources>
+	<string-array
+        name="pref_location_entries">
+        <item>Current</item>
+        <item>Halfmoon Bay</item>
+    </string-array>
+    <string-array
+        name="pref_location_values">
+        <item>0</item>
+        <item>1</item>
+	</string-array>  
+	
+	<string-array
+        name="pref_refresh_rate_entries">
+        <item>15 seconds</item>
+        <item>30 seconds</item>
+        <item>1 minute</item>
+        <item>5 minutes</item>
+    </string-array>
+    <string-array
+        name="pref_refresh_rate_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>300</item>
+	</string-array>  
+	<!-- Beaufort scale: http://en.wikipedia.org/wiki/Beaufort_scale -->
+	<string-array
+        name="wind_speed_entries">
+        <item>None</item>
+        <item>Light air (1&#8211;3 mph)</item>
+        <item>Light breeze (4&#8211;7 mph)</item>
+        <item>Gentle breeze (8&#8211;12 mph)</item>
+        <item>Moderate breeze (13&#8211;17 mph)</item>
+        <item>Fresh breeze (18&#8211;24 mph)</item>
+        <item>Strong breeze (25&#8211;30 mph)</item>
+        <item>High wind (31&#8211;38 mph)</item>
+        <item>Gale (39&#8211;46 mph)</item>
+        <item>Strong Gale (47&#8211;54 mph)</item>
+        <item>Storm (55&#8211;63 mph)</item>
+        <item>Violent Storm (64&#8211;73 mph)</item>
+        <item>Hurricane (>= 74 mph)</item>
+    </string-array>
+    <string-array
+        name="wind_speed_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+	</string-array> 
+			
+	<!-- 8 cardinal points --> 
+	<string-array
+        name="pref_wind_direction_warning_entries">
+        <item>None</item>
+		<item>North (N)</item>
+		<item>South (S)</item>
+		<item>East (E)</item>
+        <item>West (W)</item>
+		<item>Northeast (NE)</item>
+		<item>Southeast (SE)</item>
+        <item>Northwest (NW)</item>
+        <item>Southwest (SW)</item>
+        <item>North-Northeast (NNE)</item>
+        <item>South-Southeast (SSE)</item>
+        <item>North-Northwest (NNW)</item>
+        <item>South-Southwest (SSW)</item>
+        <item>East-Northeast (ENE)</item>
+        <item>East-Southeast (ESE)</item>
+        <item>West-Northwest (WNW)</item>
+        <item>West-Southwest (WSW)</item>
+    </string-array>
+    
+    <string-array
+        name="pref_wind_direction_warning_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+	</string-array>
+	
+	<string-array
+        name="wind_array">
+        <item>@string/wind_calm</item>
+        <item>@string/wind_light_air</item>
+        <item>@string/wind_light_breeze</item>
+		<item>@string/wind_gentle_breeze</item>
+		<item>@string/wind_moderate_breeze</item>
+		<item>@string/wind_fresh_breeze</item>
+		<item>@string/wind_strong_breeze</item>
+		<item>@string/wind_high_wind</item>
+		<item>@string/wind_gale</item>
+		<item>@string/wind_strong_gale</item>
+		<item>@string/wind_storm</item>
+		<item>@string/wind_violent_storm</item>
+		<item>@string/wind_hurricane</item>
+	</string-array>
+</resources>

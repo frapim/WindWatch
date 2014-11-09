@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+* WindWatch - Wind tracking application compatible with Android Wear.
+* Copyright (C) 2014  Francisco Pimenta
+
+* This program is free software: you can redistribute it and/or modify
+* it under the terms of the GNU General Public License as published by
+* the Free Software Foundation, either version 3 of the License, or
+* (at your option) any later version.
+
+* This program is distributed in the hope that it will be useful,
+* but WITHOUT ANY WARRANTY; without even the implied warranty of
+* MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+* GNU General Public License for more details.
+
+* You should have received a copy of the GNU General Public License
+* along with this program.  If not, see <http://www.gnu.org/licenses/>.
+-->
+<resources>
+
+    <item type="color" name="wind_calm">#FFFFFF</item>
+	<item type="color" name="wind_light_air">#CCFFFF</item>
+	<item type="color" name="wind_light_breeze">#99FFCC</item>
+	<item type="color" name="wind_gentle_breeze">#99FF99</item>
+	<item type="color" name="wind_moderate_breeze">#99FF66</item>
+	<item type="color" name="wind_fresh_breeze">#99FF00</item>
+	<item type="color" name="wind_strong_breeze">#CCFF00</item>
+	<item type="color" name="wind_high_wind">#FFFF00</item>
+	<item type="color" name="wind_gale">#FFCC00</item>
+	<item type="color" name="wind_strong_gale">#FF9900</item>
+	<item type="color" name="wind_storm">#FF6600</item>
+	<item type="color" name="wind_violent_storm">#FF3300</item>
+	<item type="color" name="wind_hurricane">#FF0000</item>
+ 
+    <integer-array name="wind_colors">
+        <item>@color/wind_calm</item>
+        <item>@color/wind_light_air</item>
+        <item>@color/wind_light_breeze</item>
+        <item>@color/wind_gentle_breeze</item>
+        <item>@color/wind_moderate_breeze</item>
+        <item>@color/wind_fresh_breeze</item>
+        <item>@color/wind_strong_breeze</item>
+        <item>@color/wind_high_wind</item>
+        <item>@color/wind_gale</item>
+        <item>@color/wind_strong_gale</item>
+        <item>@color/wind_storm</item>
+        <item>@color/wind_violent_storm</item>
+        <item>@color/wind_hurricane</item>
+    </integer-array>    
+</resources>
